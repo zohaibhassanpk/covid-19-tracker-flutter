@@ -1,57 +1,58 @@
 # Covid-19 Tracker App 🦠
 
-A real-time Covid-19 tracking application built with **Flutter**. This app fetches data from a global API to display worldwide statistics and provides detailed country-wise breakdowns of cases, deaths, and recoveries.
+A Flutter-based mobile app that tracks global COVID-19 statistics in real time. It pulls data from the disease.sh API and presents a clean dashboard for worldwide totals, country-specific insights, and detailed case breakdowns.
 
-## 🚀 Features
+## Features
 
-*   **Global Dashboard**: View total cases, recovered, and deaths worldwide visualized with a responsive **Pie Chart**.
-*   **Country Tracking**: Browse a list of all countries or **search** for a specific one to view detailed statistics.
-*   **Detailed Insights**: Click on any country to see specific data including active cases, critical conditions, and today's stats.
-*   **Smooth UI/UX**:
-    *   **Dark Mode** design for better visual comfort.
-    *   **Shimmer Effects** for loading states.
-    *   **Animated Text** and transitions for an engaging user experience.
-    *   **Pull-to-Refresh** capability (if applicable, otherwise standard data fetching).
+- Global overview with total cases, recovered patients, and deaths
+- Country list with search support
+- Detailed country information screen
+- Active, critical, and today’s cases tracking
+- Dark-mode UI with shimmer loading indicators
+- Animated transitions and smooth user experience
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-*   **Framework**: [Flutter](https://flutter.dev/) (Dart)
-*   **Architecture**: MVVM (Model-View-ViewModel) pattern
-*   **API**: [disease.sh](https://disease.sh/) (or whichever API you used)
-*   **Key Packages**:
-    *   `http`: For REST API integration.
-    *   `pie_chart`: For visualizing data.
-    *   `flutter_spinkit`: For custom loading indicators.
-    *   `shimmer`: For loading skeleton effects.
-    *   `animated_text_kit`: For text animations.
+- Flutter + Dart
+- REST API integration using `http`
+- `pie_chart` for data visualization
+- `flutter_spinkit` for loading indicators
+- `shimmer` for skeleton effects
+- `animated_text_kit` for UI animation
 
-## 📸 Screenshots
+## Screenshots
 
-| Splash Screen | World Stats | Country List |
+| Splash Screen | World Stats | Country Details |
 |:---:|:---:|:---:|
-| <img src="assets/virus.png" width="150"> | *(Add screenshot)* | *(Add screenshot)* |
+| <img src="assets/virus.png" width="150"> | Coming soon | Coming soon |
 
-*(Note: Replace placeholders with actual screenshots of your app)*
+## Getting Started
 
-## 🏁 Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zohaibhassanpk/covid-19-tracker-flutter.git
+   ```
+2. Open the project directory:
+   ```bash
+   cd covid-19-tracker-flutter
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/covid_19_tracker.git
-    ```
-2.  **Navigate to the project directory**:
-    ```bash
-    cd covid_19_tracker
-    ```
-3.  **Install dependencies**:
-    ```bash
-    flutter pub get
-    ```
-4.  **Run the app**:
-    ```bash
-    flutter run
-    ```
+## Project Structure
 
-## 🤝 Contribution
+- `lib/` — application source code
+- `assets/` — project assets and images
+- `test/` — widget and app tests
+- `web/` — web configuration files
+- `android/` and `ios/` — platform-specific setup
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+## Contribution
+
+Contributions are welcome. Feel free to open an issue or submit a pull request with improvements, bug fixes, or UI enhancements.

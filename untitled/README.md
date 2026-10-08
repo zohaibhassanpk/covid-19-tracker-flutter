@@ -1,16 +1,17 @@
-# untitled
+# Project Template Notes
 
-A new Flutter project.
+This directory contains a generated Flutter starter project that was created during the initial setup of the app. It is kept as a reference and does not represent the main project logic for the COVID-19 Tracker application.
 
-## Getting Started
+The actual app source code lives in the repository root under `lib/`, while this folder can be ignored unless you want to compare starter boilerplate with the final implementation.
 
-This project is a starting point for a Flutter application.
+## Purpose
 
-A few resources to get you started if this is your first Flutter project:
+- Reference for default Flutter project structure
+- Testing and template comparison
+- Local generated boilerplate not used in the final app flow
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Related Files
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Root `README.md` — main project documentation
+- `lib/` — actual application code
+- `pubspec.yaml` — project dependencies and metadata
